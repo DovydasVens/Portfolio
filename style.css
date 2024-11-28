@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(247, 231, 220);
+}
+
+.navbar{
+    border: 3px solid rgb(64, 93, 114);
+    font-size: 30px;
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    background-color: rgb(117, 134, 148);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linknav{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.linknav:hover{
+    text-shadow: 2px 2px rgb(64, 93, 114);
+    color: blue;
+    transition: 0.3s;
+}
